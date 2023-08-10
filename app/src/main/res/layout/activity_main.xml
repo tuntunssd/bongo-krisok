@@ -50,7 +50,7 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/sign_up"
         android:onClick="onButtonSignUpClicked"
-        android:text="sign up"
+        android:text="sign in"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -64,7 +64,7 @@
         android:layout_marginBottom="40dp"
         android:background="@drawable/sign_in"
         android:onClick="onButtonSignInClicked"
-        android:text="sign in"
+        android:text="sign up"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
