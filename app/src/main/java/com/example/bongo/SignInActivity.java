@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -49,6 +50,8 @@ public class SignInActivity extends AppCompatActivity {
                     if(task.isSuccessful()){
                         Toast.makeText(SignInActivity.this,"User Has successfully log in",Toast.LENGTH_LONG).show();
                         progressBar.setVisibility(View.GONE);
+                        Intent intent = new Intent(SignInActivity.this,HomePage.class);
+                        startActivity(intent);
                     }else{
                         Toast.makeText(SignInActivity.this,"User Has Failed log in",Toast.LENGTH_LONG).show();
                         progressBar.setVisibility(View.GONE);
