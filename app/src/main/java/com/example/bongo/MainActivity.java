@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onButtonSignUpClicked(View view){
-        Intent intent = new Intent(MainActivity.this,SignUpActivity.class);
+        Intent intent = new Intent(MainActivity.this,SignInActivity.class);
         startActivity(intent);
 
     }
     public void onButtonSignInClicked(View view){
-        Intent intent = new Intent(MainActivity.this,SignInActivity.class);
+        Intent intent = new Intent(MainActivity.this,SignUpActivity.class);
         startActivity(intent);
     }
 }
